@@ -22,7 +22,7 @@ public class GarageTest {
 	}
 
 	@Test
-	public void lesVoituresSontBienInitialisees() {
+	public void lesVoituresSontBienInitialisees() throws Exception {
 		// Given: une voiture après initialisation
 		// Then: la voiture n'est pas dans un garage
 		assertFalse(v1.estDansUnGarage());
